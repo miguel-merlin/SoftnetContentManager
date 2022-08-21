@@ -1,0 +1,17 @@
+.file-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1.5px solid grey;
+}
+
+.file-list img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
